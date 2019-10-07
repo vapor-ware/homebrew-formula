@@ -7,11 +7,11 @@ class Sctl < Formula
   #depends_on "google-cloud-sdk"
 
   if OS.mac?
-    url "https://github.com/vapor-ware/sctl/releases/download/1.0.0-rc3/sctl_1.0.0-rc3_Darwin_x86_64.tar.gz"
-    sha256 "ae0861812c07dc2796cdd85513b3003aa31f6fb5c9a7af8325863898e9c201e8"
+    url "https://github.com/vapor-ware/sctl/releases/download/1.0.0-rc5/sctl_1.0.0-rc5_Darwin_x86_64.tar.gz"
+    sha256 "a26f1e8a2fa3621affc1f3d4e9d571687a7fb6a242998984787ffcf7c45c5904"
   elsif OS.linux?
-    url "https://github.com/vapor-ware/sctl/releases/download/1.0.0-rc3/sctl_1.0.0-rc3_Linux_x86_64.tar.gz"
-    sha256 "d9df42e283f02c00b567dc8a55b6a7379d5d9dd92e4b0f0c5917c039c257d543"
+    url "https://github.com/vapor-ware/sctl/releases/download/1.0.0-rc5/sctl_1.0.0-rc5_Linux_x86_64.tar.gz"
+    sha256 "4c2d896a1c6c0aeda1f99be7e27b8da31d5691bbb6ebd34456cd2d7c070bc824"
   end
 
   def install
