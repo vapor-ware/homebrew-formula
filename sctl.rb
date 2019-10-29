@@ -1,15 +1,15 @@
 class Sctl < Formula
   desc "Manage secrets on Google Cloud Platform with KMS and state files"
   homepage "https://github.com/vapor-ware/sctl"
-  version "1.0.0-rc6"
+  version "1.0.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/vapor-ware/sctl/releases/download/1.0.0-rc6/sctl_1.0.0-rc6_Darwin_x86_64.tar.gz"
-    sha256 "773aa96f8bfb396f8c51fde874d15a4f68960866281f5a0e52c984866eb7d660"
+    url "https://github.com/vapor-ware/sctl/releases/download/1.0.0/sctl_1.0.0_Darwin_x86_64.tar.gz"
+    sha256 "f4b9ce17729e23ef76724c6110f10cdeaebc7ab6290d807f269c38ef5d2dd367"
   elsif OS.linux?
-    url "https://github.com/vapor-ware/sctl/releases/download/1.0.0-rc6/sctl_1.0.0-rc6_Linux_x86_64.tar.gz"
-    sha256 "e630a54036154424ec5699e0444dc9f4d9dc9ab1708539a52e13a7b58bc3ac61"
+    url "https://github.com/vapor-ware/sctl/releases/download/1.0.0/sctl_1.0.0_Windows_x86_64.tar.gz"
+    sha256 "85d63a35d6439ec362553f634d855ee148ab94802f72db4fe4c4002c1b3e820e"
   end
 
   def install
