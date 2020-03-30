@@ -2,16 +2,16 @@
 class Synse < Formula
   desc "Unified CLI for Vapor IO's Synse platform."
   homepage "https://github.com/vapor-ware/synse-cli"
-  version "3.0.0-alpha.4"
+  version "3.0.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/vapor-ware/synse-cli/releases/download/3.0.0-alpha.4/synse_3.0.0-alpha.4_darwin_amd64.tar.gz"
-    sha256 "608b261560975ab572402ee423c1b06973ed63511357b5ad318051de2b615027"
+    url "https://github.com/vapor-ware/synse-cli/releases/download/3.0.0/synse_3.0.0_darwin_amd64.tar.gz"
+    sha256 "dd00a74375fa32091aa90cf0d1d1caf11e3fa1e7aad9edee046d93febca8e148"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/vapor-ware/synse-cli/releases/download/3.0.0-alpha.4/synse_3.0.0-alpha.4_linux_amd64.tar.gz"
-      sha256 "07f4fe19d210e1d69e12c057c9cef2c7af715802a7b89d93e063f4bf075c17da"
+      url "https://github.com/vapor-ware/synse-cli/releases/download/3.0.0/synse_3.0.0_linux_amd64.tar.gz"
+      sha256 "0066721a54a57a31d5b38097382256ce5b0d3f12e407d91feccdf18774fb7450"
     end
   end
 
