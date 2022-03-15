@@ -3,7 +3,6 @@ class Sctl < Formula
   desc "Manage secrets on Google Cloud Platform with KMS and state files"
   homepage "https://github.com/vapor-ware/sctl"
   version "1.5.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/vapor-ware/sctl/releases/download/1.5.0/sctl_1.5.0_Darwin_x86_64.tar.gz"

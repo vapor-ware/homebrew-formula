@@ -3,7 +3,6 @@ class Ouroboros < Formula
   desc "A Helm(file) toolkit designed to flatten the curve for knowledge required to perform deployments at Vapor."
   homepage "https://github.com/vapor-ware/ouroboros"
   version "0.1.0-rc.3"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/vapor-ware/ouroboros/releases/download/0.1.0-rc.3/ouroboros_0.1.0-rc.3_darwin_amd64.tar.gz"
