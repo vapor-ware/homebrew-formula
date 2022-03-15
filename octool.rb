@@ -3,7 +3,6 @@ class Octool < Formula
   desc "Simple tool to test/debug/diagnose connections to OpenConfig servers"
   homepage "https://github.com/vapor-ware/octool"
   version "0.1.0-rc1"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/vapor-ware/octool/releases/download/v0.1.0-rc1/octool_0.1.0-rc1_darwin_amd64.tar.gz"

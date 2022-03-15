@@ -3,7 +3,6 @@ class Synse < Formula
   desc "Unified CLI for Vapor IO's Synse platform."
   homepage "https://github.com/vapor-ware/synse-cli"
   version "3.0.0"
-  bottle :unneeded
 
   if OS.mac?
     url "https://github.com/vapor-ware/synse-cli/releases/download/3.0.0/synse_3.0.0_darwin_amd64.tar.gz"
